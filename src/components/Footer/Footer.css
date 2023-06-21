@@ -1,0 +1,32 @@
+.main-footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  background: black;
+  padding: 1rem;
+  margin: auto;
+  width: 100%;
+}
+
+#footer {
+  text-align: center;
+}
+
+.footer-paragraph {
+  color: aliceblue;
+  font-size: 20px;
+  animation: carousel-appear 1s ease-out forwards;
+}
+
+.footer-subparagraph {
+  color: rgb(98, 98, 99);
+  font-size: 10px;
+  animation: footer-appear 1s ease-out forwards;
+}
+
+@media only screen and (max-width: 1400px) {
+  .main-footer {
+    margin-top: 450px;
+  }
+}
