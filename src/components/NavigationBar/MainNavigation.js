@@ -6,7 +6,7 @@ import Button from "../UI/Button";
 export default function MainNavigation() {
   return (
     <header className="header">
-      <Link to="/"      end={true}>
+      <Link to="/">
         <img src={logoImg} className="logo-img" alt="CCS Logo"></img>
       </Link>
 
@@ -29,7 +29,6 @@ export default function MainNavigation() {
               end={true}
             >
               <Button>Contact Us</Button>
-             
             </NavLink>
           </li>
         </ul>

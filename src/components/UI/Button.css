@@ -1,13 +1,29 @@
 .button-ui {
   /* background-color: rgb(73, 73, 188); */
   background-color: #4285F4;
-  padding: 0.7rem;
+  padding: 0.7rem 1rem;
   border: none;
   border-radius: 0.2rem;
   font-size: 1.2rem;
 }
 
 .button-ui:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+  color: #4285F4;
+  /* color: rgb(73, 73, 188); */
+}
+
+.dark-button {
+  /* background-color: rgb(73, 73, 188); */
+  background-color: #6a6c71;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+}
+
+.dark-button:hover {
   cursor: pointer;
   background-color: aliceblue;
   color: #4285F4;

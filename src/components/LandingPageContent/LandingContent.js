@@ -1,7 +1,8 @@
 import "./LandingContent.css";
-import mainImg from "../../images/main-img.jpg";
+import mainImg from "../../images/team.jpg";
 import { Link } from "react-router-dom";
 import Button from "../UI/Button";
+// import DarkButton from "../UI/DarkButton";
 export default function LandingContent() {
   return (
     <div className="landing-page">
@@ -14,17 +15,19 @@ export default function LandingContent() {
           cloud-based solutions, we will make it happen. Step into a future of
           scalability, agility, and competitive advantage.
         </p>
-        <div className="contact-button">
-          <Link to="learn">
-            <Button>Learn More</Button>
+        <div className="contact-buttons">
+          <Link to="contact" className="contact-button">
+            <Button>Get Free Consultation</Button>
           </Link>
+          {/* <Link to="learn" className="contact-button">
+            <DarkButton>Learn More</DarkButton>
+          </Link> */}
         </div>
       </div>
       <div className="advantages">
         <img className="main-img" src={mainImg} alt="Glasses and Code"></img>
       </div>
       <div className="advantages-list">
-        <h3>Ipsum Lorem</h3>
         <h3>Ipsum Lorem</h3>
         <h3>Ipsum Lorem</h3>
         <h3>Ipsum Lorem</h3>
