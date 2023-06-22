@@ -15,9 +15,18 @@
 }
 
 .main-img {
-  width: 30%;
+  width: 50%;
   margin: 3% 0;
   border-radius: 1rem;
+}
+
+.callout {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.callout-subparagraph{
+  color: rgb(158, 158, 159);
 }
 
 .contact-button {

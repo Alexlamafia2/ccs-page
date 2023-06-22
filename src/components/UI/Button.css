@@ -1,5 +1,6 @@
 .button-ui {
-  background-color: rgb(73, 73, 188);
+  /* background-color: rgb(73, 73, 188); */
+  background-color: #4285F4;
   padding: 0.7rem;
   border: none;
   border-radius: 0.2rem;
@@ -9,6 +10,6 @@
 .button-ui:hover {
   cursor: pointer;
   background-color: aliceblue;
-  /* color: rgb(117, 117, 219); */
-  color: rgb(73, 73, 188);
+  color: #4285F4;
+  /* color: rgb(73, 73, 188); */
 }
