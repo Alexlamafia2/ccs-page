@@ -12,6 +12,7 @@
 .intro > p {
   margin: auto;
   max-width: 70%;
+  color: rgb(158, 158, 159);
 }
 
 .main-img {
@@ -25,9 +26,7 @@
   font-weight: bolder;
 }
 
-.callout-subparagraph{
-  color: rgb(158, 158, 159);
-}
+
 
 .contact-button {
   margin-top: 1rem;

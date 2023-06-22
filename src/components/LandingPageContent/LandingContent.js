@@ -7,7 +7,7 @@ export default function LandingContent() {
     <div className="landing-page">
       <div className="intro">
         <h1 className="callout"> Empower Your Business with Cloud Consulting & Solutions</h1>
-        <p className="callout-subparagraph">
+        <p >
           Our expert team is here to guide you on your journey to digital
           transformation. Whether you're seeking cost-effective cloud
           infrastructure, seamless migration strategies, or innovative
