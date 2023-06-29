@@ -1,13 +1,16 @@
 .main-footer {
   background-color: black;
-  padding: 2rem 0 ;
-  margin-top: 3rem;
+  /* padding: 1vh ;
+  margin-top: 1vh; */
+  height: 5rem;
   text-align: center;
 }
 
 .footer-paragraph {
+  margin: 0;
   color: aliceblue;
   font-size: 20px;
+  font-style: italic;
   animation: carousel-appear 1s ease-out forwards;
 }
 

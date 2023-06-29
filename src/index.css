@@ -3,7 +3,8 @@
 }
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Caramel', cursive;
+  font-family: 'Roboto', sans-serif;
   /* font-size: 16px;
   line-height: 24px;
   font-weight: 400; */
@@ -27,6 +28,8 @@
 }
 
 body {
+  font-family: Oswald;
+  font-weight: bold;
   margin: 0;
   /* max-width: 100%; */
 }
