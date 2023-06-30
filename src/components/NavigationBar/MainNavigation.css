@@ -36,6 +36,8 @@
 .list a:hover,
 .list a.active {
   color: aliceblue;
+  transition: .3s ease-in;
+  
 }
 
 @media (max-width: 55rem) {

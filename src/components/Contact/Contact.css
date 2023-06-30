@@ -1,13 +1,17 @@
+
+
 .contact-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  /* background-color: rgb(14, 14, 54); */
 }
 
 .contact-form__title {
   color: aliceblue;
+  font-size: 3rem;
 }
 
 .contact-form__input {

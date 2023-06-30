@@ -1,14 +1,14 @@
 import "./Contact.css";
-import React, { Fragment } from "react";
+// import React, { Fragment } from "react";
 
 import { Form } from "react-router-dom";
 import Button from "../UI/Button";
 
 export default function Contact(props) {
   return (
-    <Fragment>
+ 
       <Form method="post" className="contact-form">
-        <h1 className="contact-form__title">Contact Us!</h1>
+        <h1 className="contact-form__title">Leave us a message!</h1>
         <input
           className="contact-form__input"
           type="text"
@@ -45,6 +45,6 @@ export default function Contact(props) {
           <Button>Submit</Button>
         </div>
       </Form>
-    </Fragment>
+
   );
 }
